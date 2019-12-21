@@ -6,55 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
 
-    <link rel="stylesheet" type="text/css" href="reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
 <body>
-    <div id="Header">
-        <div id="YourName">
-            <p> 
-                Miranda D'Asto 
-            </p>
-        </div>
-        <div id="About">
-            <p> 
-                About 
-            </p>
-        </div>
-        <div id="Portfolio">
-            <p> 
-                Portfolio 
-            </p>
-        </div>
-        <div id="Contact">
-            <p>
-                Contact
-            </p>
-        </div> 
-    </div>
+    <div class="container">
 
-    <div id="body">
-        <div id="AboutMe"></div>
-        <div id="MyPicture">
-            <img src="PictureOfMe.jpg" alt="Photo of Me">
-        </div>
-        <div id="myBio">
-            <p>
-                Hello, as you can see above, my name is Miranda D'Asto.
-                I am currently working on my bachelors for IT management. 
-                I am on track to graduate in April of 2021. In the meantime, I am
-                taking a course in coding and full-stack web development
-                offered by the University of Utah to supplement my education.
-                <br>
-                In my free time, I enjoy going to my studio where I train on
-                aerial apparatuses such as hammock, lyra (hoop), and silks. I 
-                have also recently begun taking up horse back riding (again) on 
-                the weekends. I lead an exciting life full of education and
-                adventure! I am very happy where I am, and very excited for my
-                future. 
-            </p>
-        </div>
-    </div>
+        <div class="row"> <!--Header Row -->
+
+            <div class="col-md-7">
+                Miranda D'Asto
+            </div>
+
+            <div class="col-md-1">
+                About
+            </div>
+
+            <div class="col-md-1">
+                Portfolio
+            </div>
+
+            <div class="col-md-1">
+                Contact
+            </div>
+
+        </div> <!-- End of Header Row -->
+     
+
+        <div id="body">
+            <div class="row">
+                <div id="AboutMe"></div>
+            </div>
+
+            <div class="row">
+
+                <div id="MyPicture">
+                    <img src="assets/images/pictureOfMe.png" alt="Photo of Me">
+                </div>
+
+                <div id="myBio">
+                    <p>
+                        Hello, as you can see above, my name is Miranda D'Asto.
+                        I am currently working on my bachelors for IT management. 
+                        I am on track to graduate in April of 2021. In the meantime, I am
+                        taking a course in coding and full-stack web development
+                        offered by the University of Utah to supplement my education.
+                        <br>
+                        In my free time, I enjoy going to my studio where I train on
+                        aerial apparatuses such as hammock, lyra (hoop), and silks. I 
+                        have also recently began taking up horse back riding (again) on 
+                        the weekends. I lead an exciting life full of education and
+                        adventure! I am very happy where I am, and very excited for my
+                        future. 
+                    </p>
+                </div>
+
+            </div>
+
+        </div> <!-- ID Body End -->
+
+    </div> <!-- End of Container -->   
     
 </body>
 </html>
